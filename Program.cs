@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace N_Queens
 {
@@ -6,7 +7,8 @@ namespace N_Queens
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            var test = NQueenSolver.GetNQueenSolution(4);
         }
     }
 }
