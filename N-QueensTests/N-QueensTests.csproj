@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\N-Queens.csproj" />
+    <ProjectReference Include="..\N-Queen\N-Queens.csproj" />
   </ItemGroup>
 
 </Project>
