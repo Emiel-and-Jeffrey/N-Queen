@@ -11,7 +11,7 @@ namespace Tests
         [TestMethod()]
         public void GetNQueenSolutionTest_SizeBelow1()
         {
-            Assert.ThrowsException<ArgumentException>(() => NQueenSolver.GetNQueenSolution(0));
+            Assert.AreEqual(NQueenSolver.GetNQueenSolution(0).Count, new List<Position>().Count);
         }
 
         [TestMethod()]
